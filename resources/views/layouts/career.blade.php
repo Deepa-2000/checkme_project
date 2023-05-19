@@ -1,7 +1,6 @@
-<x-header />
-<body class="custom-cursor">
+@include('components.header')
 
-  <!--About Four Start-->
+<!--About Four Start-->
         <section class="about-four">
             <div class="container">
                 <div class="row">
@@ -106,9 +105,4 @@
             </div>
         </section>
         <!--End Cart Page--> 
-
-      
-    </div><!-- /.page-wrapper -->
-<x-footer />
-</body>
-
+@include('components.footer')

@@ -1,8 +1,5 @@
-<x-header />
-
-<body class="custom-cursor">
-
-        <!--Page Header Start-->
+@include('components.header')
+        <!-- Page Header Start -->
         <section class="page-header">
             <div class="page-header-bg" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg)">
             </div>
@@ -18,13 +15,13 @@
                 </div>
             </div>
         </section>
-        <!--Page Header End-->
+        <!-- Page Header End -->
 
-        <!--Insurance Page One Start-->
+        <!-- Insurance Page One Start -->
         <section class="insurance-page-one">
             <div class="services-one__container">
                 <div class="row">
-                    <!--Services One Single Start-->
+                    <!-- Services One Single Start -->
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                         <div class="services-one__single">
                             <div class="service-one__img">
@@ -40,8 +37,8 @@
                             </div>
                         </div>
                     </div>
-                    <!--Services One Single End-->
-                    <!--Services One Single Start-->
+                    <!-- Services One Single End -->
+                    <!-- Services One Single Start -->
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                         <div class="services-one__single">
                             <div class="service-one__img">
@@ -57,8 +54,8 @@
                             </div>
                         </div>
                     </div>
-                    <!--Services One Single End-->
-                    <!--Services One Single Start-->
+                    <!-- Services One Single End -->
+                    <!-- Services One Single Start -->
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                         <div class="services-one__single">
                             <div class="service-one__img">
@@ -74,8 +71,8 @@
                             </div>
                         </div>
                     </div>
-                    <!--Services One Single End-->
-                    <!--Services One Single Start-->
+                    <!-- Services One Single End -->
+                    <!-- Services One Single Start -->
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                         <div class="services-one__single">
                             <div class="service-one__img">
@@ -91,8 +88,8 @@
                             </div>
                         </div>
                     </div>
-                    <!--Services One Single End-->
-					<!--Services One Single Start-->
+                    <!-- Services One Single End -->
+					<!-- Services One Single Start -->
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                         <div class="services-one__single">
                             <div class="service-one__img">
@@ -108,8 +105,8 @@
                             </div>
                         </div>
                     </div>
-                    <!--Services One Single End-->
-                    <!--Services One Single Start-->
+                    <!-- Services One Single End -->
+                    <!-- Services One Single Start -->
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                         <div class="services-one__single">
                             <div class="service-one__img">
@@ -125,8 +122,8 @@
                             </div>
                         </div>
                     </div>
-                    <!--Services One Single End-->
-                    <!--Services One Single Start-->
+                    <!-- Services One Single End -->
+                    <!-- Services One Single Start -->
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                         <div class="services-one__single">
                             <div class="service-one__img">
@@ -142,8 +139,8 @@
                             </div>
                         </div>
                     </div>
-                    <!--Services One Single End-->
-                    <!--Services One Single Start-->
+                    <!-- Services One Single End -->
+                    <!-- Services One Single Start -->
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                         <div class="services-one__single">
                             <div class="service-one__img">
@@ -159,8 +156,8 @@
                             </div>
                         </div>
                     </div>
-                    <!--Services One Single End-->
-					<!--Services One Single Start-->
+                    <!-- Services One Single End -->
+					<!-- Services One Single Start -->
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                         <div class="services-one__single">
                             <div class="service-one__img">
@@ -176,8 +173,8 @@
                             </div>
                         </div>
                     </div>
-                    <!--Services One Single End-->
-                    <!--Services One Single Start-->
+                    <!-- Services One Single End -->
+                    <!-- Services One Single Start -->
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                         <div class="services-one__single">
                             <div class="service-one__img">
@@ -193,8 +190,8 @@
                             </div>
                         </div>
                     </div>
-                    <!--Services One Single End-->
-                    <!--Services One Single Start-->
+                    <!-- Services One Single End -->
+                    <!-- Services One Single Start -->
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                         <div class="services-one__single">
                             <div class="service-one__img">
@@ -210,8 +207,8 @@
                             </div>
                         </div>
                     </div>
-                    <!--Services One Single End-->
-                    <!--Services One Single Start-->
+                    <!-- Services One Single End -->
+                    <!-- Services One Single Start -->
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                         <div class="services-one__single">
                             <div class="service-one__img">
@@ -227,48 +224,43 @@
                             </div>
                         </div>
                     </div>
-                    <!--Services One Single End-->
+                    <!-- Services One Single End -->
                     
                 </div>
             </div>
         </section>
-        <!--Insurance Page One End-->
+        <!-- Insurance Page One End -->
 
         <!--Tracking Start-->
-        <section class="tracking">
-            <div class="container">
-                <div class="tracking__inner">
-                    <div class="tracking-shape-1 float-bob-y">
-                        <img src="assets/images/shapes/tracking-shape-1.png" alt="">
-                    </div>
-                    <div class="tracking-shape-2 float-bob-x">
-                        <img src="assets/images/shapes/tracking-shape-2.png" alt="">
-                    </div>
-                    <div class="tracking-shape-3 float-bob-x">
-                        <img src="assets/images/shapes/tracking-shape-3.png" alt="">
-                    </div>
-                    <div class="tracking-shape-4 float-bob-y">
-                        <img src="assets/images/shapes/tracking-shape-4.png" alt="">
-                    </div>
-                    <div class="tracking__left">
-                        <div class="tracking__icon">
-                            <span class="icon-folder"></span>
-                        </div>
-                        <div class="tracking__content">
-                            <p class="tracking__sub-title">Quisque vel ortor</p>
-                            <h3 class="tracking__title">Start tracking your Verification</h3>
-                        </div>
-                    </div>
-                    <div class="tracking__btn-box">
-                        <a href="about.blade.php" class="thm-btn tracking__btn">Trak Your Verification</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <!-- <section class="tracking"> -->
+            <!-- <div class="container"> -->
+                <!-- <div class="tracking__inner"> -->
+                    <!-- <div class="tracking-shape-1 float-bob-y"> -->
+                        <!-- <img src="assets/images/shapes/tracking-shape-1.png" alt=""> -->
+                    <!-- </div> -->
+                    <!-- <div class="tracking-shape-2 float-bob-x"> -->
+                        <!-- <img src="assets/images/shapes/tracking-shape-2.png" alt=""> -->
+                    <!-- </div> -->
+                    <!-- <div class="tracking-shape-3 float-bob-x"> -->
+                        <!-- <img src="assets/images/shapes/tracking-shape-3.png" alt=""> -->
+                    <!-- </div> -->
+                    <!-- <div class="tracking-shape-4 float-bob-y"> -->
+                        <!-- <img src="assets/images/shapes/tracking-shape-4.png" alt=""> -->
+                    <!-- </div> -->
+                    <!-- <div class="tracking__left"> -->
+                        <!-- <div class="tracking__icon"> -->
+                            <!-- <span class="icon-folder"></span> -->
+                        <!-- </div> -->
+                        <!-- <div class="tracking__content"> -->
+                            <!-- <p class="tracking__sub-title">Quisque vel ortor</p> -->
+                            <!-- <h3 class="tracking__title">Start tracking your Verification</h3> -->
+                        <!-- </div> -->
+                    <!-- </div> -->
+                    <!-- <div class="tracking__btn-box"> -->
+                        <!-- <a href="about.blade.php" class="thm-btn tracking__btn">Trak Your Verification</a> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+            <!-- </div> -->
+        <!-- </section> -->
         <!--Tracking End-->
-
-       
-    </div><!-- /.page-wrapper -->
-
-<x-footer />
-</body>
+@include('components.footer')

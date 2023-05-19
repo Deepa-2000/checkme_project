@@ -1,7 +1,4 @@
-<x-header />
-<body class="custom-cursor">
-
-
+@include('components.header')
         <!--Page Header Start-->
         <section class="page-header">
             <div class="page-header-bg" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg)">
@@ -139,7 +136,4 @@
 
         </section>
         <!--Google Map End-->
-
-    </div><!-- /.page-wrapper -->
-<x-footer />
-</body>
+@include('components.footer')

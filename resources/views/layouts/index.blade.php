@@ -1,12 +1,13 @@
-<x-header />
 <!DOCTYPE html>
 <html lang="en">
-
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Lynx3sixty </title>
+    <title>terza</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+    <link rel="stylesheet" href="assets/css/profile.css">
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -54,6 +55,17 @@
 
 <body class="custom-cursor">
 
+    <div class="custom-cursor__cursor"></div>
+    <div class="custom-cursor__cursor-two"></div>
+
+
+
+    <div class="preloader">
+        <div class="preloader__image"></div>
+    </div>
+    <!-- /.preloader -->
+    @include('components.header')
+    <div class="container">
         <!--Main Slider Start-->
         <section class="main-slider-two clearfix">
             <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
@@ -71,30 +83,27 @@
                 "delay": 5000
                 }}'>
                 <div class="swiper-wrapper">
-
                     <div class="swiper-slide">
                         <div class="image-layer-two"
                             style="background-image: url(assets/images/backgrounds/main-slider-2-1.jpg);"></div>
                         <!-- /.image-layer -->
-
                         <div class="container">
                             <div class="main-slider-two__inner">
                                 <div class="row">
                                     <div class="col-xl-5 col-lg-7">
                                         <div class="main-slider-two__content">
                                             <h2 class="main-slider-two__title">Speed, Precision & Innovation  </h2>
-											  <h3 class="main-slider-two__title"style= "font-size:30px;"> That’s how you hire right! </h3>
-											 
+	    									  <h3 class="main-slider-two__title"style= "font-size:30px;"> That’s how you hire right! </h3>
+            
                                             <p class="main-slider-two__text">we help organizations of all sizes hire the right 
                                                 people <br>  for the right opportunities. Our simple, streamlined solutions can help you get the data you  <br> need to hire – and work – smarter..
                                             </p>
                                             <div class="main-slider-two__btn-box">
-                                                <a href="{{'about'}}" class="thm-btn main-slider-two__btn">Let’s Get
-                                                    Started</a>
+                                                <a href="{{'about'}}" class="thm-btn main-slider-two__btn">Let’s Get Started</a>
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -103,14 +112,13 @@
                         <div class="image-layer-two"
                             style="background-image: url(assets/images/backgrounds/main-slider-2-2.jpg);"></div>
                         <!-- /.image-layer -->
-
                         <div class="container">
                             <div class="main-slider-two__inner">
                                 <div class="row">
                                     <div class="col-xl-5 col-lg-7">
                                         <div class="main-slider-two__content">
                                             <h2 class="main-slider-two__title">Why hired Wrong <br>  employee?</h2>
-											 <h3 class="main-slider-two__title"style= "font-size:30px;"> Mitigate The Risk Of Frauds! </h3>
+	    									 <h3 class="main-slider-two__title"style= "font-size:30px;"> Mitigate The Risk Of Frauds! </h3>
                                             <p class="main-slider-two__text">Hiring a new person is a big decision for any company.
                                                  <br> Whether or not the candidate will perform and fit into the role is secondary, <br> but a lot goes on in the background before the person is brought on board.
                                             </p>
@@ -121,7 +129,7 @@
                                         </div>
                                     </div>
                                     <div class="col-xl-7 col-lg-5">
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -131,16 +139,15 @@
                         <div class="image-layer-two"
                             style="background-image: url(assets/images/backgrounds/main-slider-2-3.jpg);"></div>
                         <!-- /.image-layer -->
-
                         <div class="container">
                             <div class="main-slider-two__inner">
                                 <div class="row">
                                     <div class="col-xl-5 col-lg-7">
                                         <div class="main-slider-two__content">
                                             <h2 class="main-slider-two__title">Initiating BGV  <br> A  Click Away</h2>
-											 <h3 class="main-slider-two__title"style= "font-size:30px;"> Online Request. Paperless </h3>
+	    									 <h3 class="main-slider-two__title"style= "font-size:30px;"> Online Request. Paperless </h3>
                                             <p class="main-slider-two__text">Comprehensive range of Background Checks
-											<br>  i.e. Employment Screening, Professional Reference, Criminal Record Check<br> , Court Record Check, Address Verification & Many more.
+	    									<br>  i.e. Employment Screening, Professional Reference, Criminal Record Check<br> , Court Record Check, Address Verification & Many more.
                                             </p>
                                             <div class="main-slider-two__btn-box">
                                                 <a href="{{'about'}}" class="thm-btn main-slider-two__btn">Let’s Get
@@ -148,13 +155,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <!-- If we need navigation buttons -->
                 <div class="main-slider__nav">
                     <div class="swiper-button-prev" id="main-slider__swiper-button-next">
@@ -164,12 +170,10 @@
                         <i class="icon-right-arrow1"></i>
                     </div>
                 </div>
-
             </div>
         </section>
         <!--Main Slider End-->
-		
-		 <!--About Three Start-->
+        <!--About Three Start-->
         <section class="about-three" style="padding-top:50px; padding-bottom:0px;">
             <div class="container">
                 <div class="row">
@@ -221,7 +225,7 @@
                                 are many variations of passages of psum available, but the majority have alteration in
                                 some form, by injected humour, or randomised words look even slightly believable.</p>
                             <div class="about-three__bottom">
-                                
+
                                 <div class="about-three__btn-box">
                                     <a href="{{'about'}}" class="thm-btn about-three__btn">Let’s Get Started</a>
                                 </div>
@@ -232,10 +236,10 @@
             </div>
         </section>
         <!--About Three End-->
-		
-		<!--Services Two Start-->
+                
+	    <!--Services Two Start-->
         <section class="services-two">
-            
+                
             <div class="container">
                 <div class="services-two__top">
                     <div class="row">
@@ -275,7 +279,7 @@
                                     </div>
                                 </div>
                                 <h3 class="services-two__title"><a href="{{'background_checks'}}">Background Checks</a></h3>
-                               
+
                             </div>
                         </div>
                         <!--Services Two Single End-->
@@ -381,7 +385,7 @@
                             </div>
                         </div>
                         <!--Services Two Single End-->
-						 <!--Services Two Single Start-->
+	    				 <!--Services Two Single Start-->
                         <div class="col-xl-2 col-lg-2 col-md-2 wow fadeInUp" data-wow-delay="800ms">
                             <div class="services-two__single">
                                 <div class="services-two__icon-box">
@@ -396,7 +400,7 @@
                             </div>
                         </div>
                         <!--Services Two Single End-->
-						 <!--Services Two Single Start-->
+	    				 <!--Services Two Single Start-->
                         <div class="col-xl-2 col-lg-2 col-md-2 wow fadeInUp" data-wow-delay="800ms">
                             <div class="services-two__single">
                                 <div class="services-two__icon-box">
@@ -411,7 +415,7 @@
                             </div>
                         </div>
                         <!--Services Two Single End-->
-						 <!--Services Two Single Start-->
+	    				 <!--Services Two Single Start-->
                         <div class="col-xl-2 col-lg-2 col-md-2 wow fadeInUp" data-wow-delay="800ms">
                             <div class="services-two__single">
                                 <div class="services-two__icon-box">
@@ -426,7 +430,7 @@
                             </div>
                         </div>
                         <!--Services Two Single End-->
-						 <!--Services Two Single Start-->
+	    				 <!--Services Two Single Start-->
                         <div class="col-xl-2 col-lg-2 col-md-2 wow fadeInUp" data-wow-delay="800ms">
                             <div class="services-two__single">
                                 <div class="services-two__icon-box">
@@ -441,7 +445,7 @@
                             </div>
                         </div>
                         <!--Services Two Single End-->
-						 <!--Services Two Single Start-->
+	    				 <!--Services Two Single Start-->
                         <div class="col-xl-2 col-lg-2 col-md-2 wow fadeInUp" data-wow-delay="800ms">
                             <div class="services-two__single">
                                 <div class="services-two__icon-box">
@@ -456,7 +460,7 @@
                             </div>
                         </div>
                         <!--Services Two Single End-->
-						 <!--Services Two Single Start-->
+	    				 <!--Services Two Single Start-->
                         <div class="col-xl-2 col-lg-2 col-md-2 wow fadeInUp" data-wow-delay="800ms">
                             <div class="services-two__single">
                                 <div class="services-two__icon-box">
@@ -471,7 +475,7 @@
                             </div>
                         </div>
                         <!--Services Two Single End-->
-						 <!--Services Two Single Start-->
+	    				 <!--Services Two Single Start-->
                         <div class="col-xl-2 col-lg-2 col-md-2 wow fadeInUp" data-wow-delay="800ms">
                             <div class="services-two__single">
                                 <div class="services-two__icon-box">
@@ -486,20 +490,16 @@
                             </div>
                         </div>
                         <!--Services Two Single End-->
-						 
+                
                     </div>
                 </div>
             </div>
         </section>
         <!--Services Two End-->
-
         <!--Feature Two Start-->
         <section class="feature-two" style="padding-bottom: 0px; padding-top: 0px; ">
-		
-		
-		
             <div class="container">
-			<div class="section-title text-left">
+	    	<div class="section-title text-left">
                                 <div class="section-sub-title-box">
                                     <p class="section-sub-title">Why Lynx360</p>
                                     <div class="section-title-shape-1">
@@ -511,7 +511,7 @@
                                 </div>
                                 <h2 class="section-title__title">What makes Lynx3sixty unique? </h2>
                             </div>
-			
+                
                 <div class="row">
                     <!--Feature Two Single Start-->
                     <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
@@ -575,8 +575,8 @@
             </div>
         </section>
         <!--Feature Two End-->
-		
-		 <!--CTA One Start-->
+                
+	     <!--CTA One Start-->
         <section class="cta-one">
             <div class="container">
                 <div class="cta-one__content">
@@ -715,10 +715,9 @@
                 </div>
             </div>
         </section>
-        <!--News Two End-->
-        <x-footer />
-    </div><!-- /.page-wrapper -->
-
+    </div>
+    @include('components.footer')
+    
     <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendors/jarallax/jarallax.min.js"></script>
@@ -745,10 +744,10 @@
     <script src="assets/vendors/circleType/jquery.lettering.min.js"></script>
 
 
-
-
     <!-- template js -->
     <script src="assets/js/insur.js"></script>
+    <script src="assets/js/profile.js"></script>
+
 
 </body>
 </html>

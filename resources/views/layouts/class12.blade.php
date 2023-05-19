@@ -1,5 +1,4 @@
-<x-header />
-<body class="custom-cursor">
+@include('components.header')
 
         <!--Page Header Start-->
         <section class="page-header">
@@ -389,9 +388,4 @@
             </div>
         </section>
         <!--Tracking End-->
-
-      
-    </div><!-- /.page-wrapper -->
-<x-footer/>
-</body>
-
+@include('components.footer')

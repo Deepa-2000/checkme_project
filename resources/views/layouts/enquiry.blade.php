@@ -1,6 +1,4 @@
-<x-header />
-<body class="custom-cursor">
-
+@include('components.header')
       <!--Get Insurance Start-->
         <section class="get-insuracne-two">
             <div class="get-insuracne-two-shape-3 float-bob-x">
@@ -215,8 +213,4 @@
             </div>
         </section>
         <!--Get Insurance End-->
-
-    </div><!-- /.page-wrapper -->
-
-<x-footer />
-</body>
+        @include('components.footer')

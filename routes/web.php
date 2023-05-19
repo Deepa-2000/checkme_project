@@ -16,10 +16,9 @@ use App\Http\Controllers\UserAuth;
 Route::get('/', function () {
     return view('layouts.index');
 });
-
 Route::post('signup',[UserAuth::class,'userSignup']);
 Route::post('login',[UserAuth::class,'userLogin']);
-
+Route::post('profile',[UserAuth::class,'userBlog']);
 
 Route::view('aadhar','layouts.aadhar');
 Route::view('about','layouts.about');
@@ -60,6 +59,15 @@ Route::view('worker_price','layouts.worker_price');
 Route::view('worker','layouts.worker');
 Route::view('login','layouts.login');
 Route::view('signup','layouts.signup');
-Route::view('profile','layouts.profile');
+
+
+Route::get('/profile',function(){
+    if (!session()->has('data')){
+        return view('layouts.profile');
+    }
+    return view('layouts.login');
+});
+
+Route::view('books','layouts.books');
 
 

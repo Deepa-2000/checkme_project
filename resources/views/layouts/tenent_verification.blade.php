@@ -1,5 +1,4 @@
-<x-header />
-<body class="custom-cursor">
+@include('components.header')
  <!--Feature One Start-->
         <section class="feature-one" style="padding-bottom: 0px;">
             <div class="container">
@@ -169,11 +168,4 @@
             </div>
         </section>
         <!--Process End-->
-       
-
-       
-    </div><!-- /.page-wrapper -->
-
-
-<x-footer />
-</body>
+        @include('components.footer')

@@ -1,6 +1,4 @@
-<x-header />
-<body class="custom-cursor">
-
+@include('components.header')
   <style>
         .formErrorArrow{
             display: none;
@@ -46,7 +44,7 @@
         width: 75px !important;
         line-height: 12px !important;
     }
-    
+
     #educationtable tr td:last-child .cgpa_of_ug_nuformError{
         top: 23.2px !important;
         left: -2px !important;
@@ -88,7 +86,7 @@
     font-size: 11px;
     font-weight: 100;
     }
-    
+
 </style>
     </head>
     <body>
@@ -111,8 +109,8 @@
                         </div>
                         					<input type="hidden"  name="requisition_id" value="197" >
 					<input type="hidden"  name="recruiter_id" value="5032" >
-				                       
-                        
+
+
                         <input type="hidden"  name="hiring_source_id" value="campus" >
                         <input type="hidden"  name="url_parameters" value="c291cmNlPXdlYnNpdGUmcmVxdWlzaXRpb25fbm89QVJTLzAxODY=">
                         <div class="row">
@@ -298,7 +296,7 @@
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label for="">Frequency of Variable Payout<sup class="text-danger">*</sup></label>
-                                            <select name="freq_variable_payouts" class="form-control validate[required]" > 
+                                            <select name="freq_variable_payouts" class="form-control validate[required]" >
                                                 <option value="" > Select </option>
                                                                                                     <option value="1">Monthly</option>
                                                                                                         <option value="2">Quarterly</option>
@@ -572,21 +570,6 @@
                                                     <input type="text" autocomplete="off" name="sscYearFrom" id="year_to_12" placeholder='year' class="form-control validate[required] date-picker" style="width:65px">
                                                 </td>
                                                 <td>
-                                                    <!--div class="custom-radio mb-0">
-      <input name="sscEducationType" type="radio" id="sscEducationTypeFull" value="F">
-      <label for="sscEducationTypeFull">Full Time</label>
-
-      <input name="sscEducationType" type="radio" id="sscEducationTypePart" value="P">
-      <label for="sscEducationTypePart">Part Time</label>
-    </div-->
-                                                </td>
-                                                <td>
-                                                        <!-- <select name="" id="" class="form-control fnt-8">
-                                                                <option value="">List</option>
-                                                                <option value="">Dummy</option>
-                                                        </select> -->
-                                                </td>
-                                                <td>
                                                     <select class="form-control validate[required]" name="inter">
                                                         <option value="">Select</option>
                                                                                                                     <option value="CBSE">CBSE</option>
@@ -752,9 +735,6 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        3
-                                                    </td>
-                                                    <td>
                                                         <div class="employee3_div has-select2">
                                                             <select name="current_emp3" id="employee3" class=" form-control  fnt-8" style="width:100%">
                                                                 <option value="">--Select Company--</option>
@@ -837,23 +817,23 @@
                                 </div>
                             </div>
                         </div>
-                        
-                          
+
+
 			  			   <div class="col-sm-12">
                 <div class="privacy_policy" style="margin-top:20px">
                     <input class="" type="checkbox" id="accept_privacy_policy" name="accept_privacy_policy" value="1" /><label style="margin-left:10px;"> I have read and accept the Recruitment <a href="https://www.Lynx3Sixty.com/recruitment-policy" target="_blank">Privacy Policy</a> * </label>
 				</div>
 				 <div><label class="errorPrivacy" id="myerrorPrivacy" generated="true"  style="display:none;"> *This field is required</label></div>
-                                 
+
                            </div>
-                        
+
                         <div class="col-sm-12">
                         <div class="privacy_policy" style="margin-top:2px">
                             <!--input class="" type="checkbox" id="acknowledgement" name="acknowledgement" value="1" /-->
                             <label style="margin-left:10px;"><strong>Note:</strong> I acknowledge that the information provided by me is correct and can be used for background verification subjected to my offer acceptance, if I'm offered a job opportunity<br> by Lynx3Sixty * </label>
                         </div>
 			<div><label class="errorPrivacy" id="myacknowledgement" generated="true"  style="display:none;"> *This field is required</label></div>
-                                 
+
                            </div>
 			                          <div class="row">
                             <div class="col-md-12">
@@ -868,12 +848,6 @@
                 </div>
             </div>
         </div>
-       
-
-    </div><!-- /.page-wrapper -->
 
 
-<x-footer />    
-</body>
-
-
+@include('components.footer')

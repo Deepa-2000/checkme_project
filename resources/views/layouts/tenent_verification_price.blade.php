@@ -1,6 +1,4 @@
-<x-header />
-<body class="custom-cursor">
-
+@include('components.header')
         <!--pricing Start-->
         <section class="pricing" style="padding-bottom: 0px;">
             <div class="container">
@@ -189,12 +187,4 @@
             </div>
         </section>
         <!--pricing End-->
-
-       
-
-
-    </div><!-- /.page-wrapper -->
-
-
-<x-footer />
-</body>
+        @include('components.footer')

@@ -1,6 +1,5 @@
-<x-header />
-<body class="custom-cursor">
-            <!--Page Header Start-->
+@include('components.header')
+<!--Page Header Start-->
             <section class="page-header">
                 <div class="page-header-bg" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg)">
                 </div>
@@ -388,7 +387,4 @@
                 </div>
             </section>
             <!--Tracking End-->
-
-    </div><!-- /.page-wrapper -->
-
-</body>
+@include('components.footer')
